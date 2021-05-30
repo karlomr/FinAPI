@@ -7,8 +7,8 @@ Poderá:
 - 3 [x] Realizar depósito
 - 4 [x] Realizar saque
 - 5 [x] Buscar extrato bancário do cliente por data
-- 6 [] Atualizar daods da conta do cliente
-- 7 [] Deletar uma conta do client
+- 6 [x] Atualizar daods da conta do cliente
+- 7 [x] Deletar uma conta do client
 
 ## Regras de Negócio
 Não poderá:
@@ -17,12 +17,12 @@ Não poderá:
 - 3 [x] Buscar extrato em conta não existente 
 - 4 [x] Fazer saque usando conta inexistente
 - 5 [x] Realizar  saque quando saldo insuficiente
-- 6 [] Excluir conta inexistente
+- 6 [x] Excluir conta inexistente
 
 
 
 ## Cadastro de Conta
-- 04:32 - Instalação do UUID
+- 04:16 - Instalação do UUID
 Atendidos
 - Requisitos nº[1]
 - Regra nº[1]
@@ -53,6 +53,11 @@ Atendidos
 - Requisitos nº[5]
 
 ## Atualizar conta
+- Requisitos nº[6]
+
+## Deletar conta
+- Requisitos nº[7]
+- Regra nº[6]
 
 
 
